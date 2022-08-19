@@ -18,6 +18,7 @@ int main()
    printf("Identificador del proceso hijo : %d\n", id_proceso_hijo);
    id_usuario=getuid();
    printf("Identificador del Usuario : %d\n", id_usuario);
+   printf("Nombre del Usuario del Usuario : %s\n", getlogin());
    
 
    return 0;
